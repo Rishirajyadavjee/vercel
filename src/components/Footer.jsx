@@ -14,7 +14,7 @@ export default function Footer() {
     {
       name: 'Instagram',
       handle: '@rishi.design',
-      url: 'https://instagram.com',
+      url: 'https://www.instagram.com/rishi_raj_yadav10',
       className: 'instagram',
       aria: 'Visit Instagram profile',
       svg: (
@@ -28,7 +28,7 @@ export default function Footer() {
     {
       name: 'GitHub',
       handle: 'rishirrajyadav',
-      url: 'https://github.com',
+      url: 'https://github.com/rishirajyadavjee',
       className: 'github',
       aria: 'Visit GitHub profile',
       svg: (
@@ -41,7 +41,7 @@ export default function Footer() {
     {
       name: 'Twitter',
       handle: '@rishi_design',
-      url: 'https://twitter.com',
+      url: 'https://twitter.com/RishiYadav58301',
       className: 'twitter',
       aria: 'Visit Twitter profile',
       svg: (
@@ -53,7 +53,7 @@ export default function Footer() {
     {
       name: 'LinkedIn',
       handle: 'rishirajyadav',
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/rishi-yadav-8575b7341',
       className: 'linkedin',
       aria: 'Visit LinkedIn profile',
       svg: (
