@@ -24,7 +24,7 @@
 }
 
 html {
-  background-color: var(--bg-dark);
+  background-color: transparent;
   color: var(--text-white);
   font-family: var(--font-main);
   overflow-x: hidden;
@@ -32,9 +32,10 @@ html {
 }
 
 body {
-  background-color: var(--bg-dark);
+  background-color: transparent;
   min-height: 100vh;
 }
+
 
 /* Scroll Container & Canvas Background */
 .scroll-container {
@@ -73,12 +74,13 @@ body {
   width: 100%;
   z-index: 100;
   padding: 24px 0;
-  background: rgba(11, 12, 16, 0.85);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: #0b0c10;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.3s ease;
 }
+
 
 .nav-container {
   max-width: 1720px;
@@ -496,9 +498,10 @@ body {
 /* Workflow Section */
 .workflow-section {
   padding: 140px 0;
-  background: rgba(12, 13, 18, 0.6);
+  background: transparent;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+
 
 .workflow-container {
   max-width: 1720px;
@@ -703,9 +706,10 @@ body {
 /* Stats Section */
 .stats-section {
   padding: 100px 0;
-  background: rgba(12, 13, 18, 0.8);
+  background: transparent;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+
 
 .stats-container {
   max-width: 1720px;
@@ -853,9 +857,10 @@ body {
 /* Contact / Growth Section */
 .growth-section {
   padding: 140px 0;
-  background: rgba(12, 13, 18, 0.95);
+  background: transparent;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+
 
 .growth-container {
   max-width: 1720px;
